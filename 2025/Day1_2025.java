@@ -1,19 +1,11 @@
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
 import java.util.List;
-import java.util.stream.Stream;
 
 public class Day1_2025 {
 
-    private static final Path INPUT_PATH = Path.of("data/input.txt");
+    public static void main(String[] args) {
 
-    public static void main(String[] args) throws IOException {
+        List<String> lines = InputParser.readLines();
 
-        List<String> lines;
-        try (Stream<String> lineStream = Files.lines(INPUT_PATH)) {
-            lines = lineStream.toList();
-        }
         System.out.println("Task 1 Password: " + task1(lines));
         System.out.println("Task 2 Password: " + task2(lines));
 
