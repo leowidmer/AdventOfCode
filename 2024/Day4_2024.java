@@ -3,7 +3,7 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Day4 {
+public class Day4_2024 {
     private static ArrayList<char[]> wordpuzzle = new ArrayList<>();
     private static long xmasCounter = 0;
     private static long x_masCounter = 0;

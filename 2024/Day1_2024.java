@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Scanner;
 
-public class Day1 {
+public class Day1_2024 {
 
     private static final List<Integer> leftList = new ArrayList<>();
     private static final List<Integer> rightList = new ArrayList<>();

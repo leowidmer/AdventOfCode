@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Day3 {
+public class Day3_2024 {
     public static void main(String[] args) {
         String data = "";
         try {

@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Day5 {
+public class Day5_2024 {
     public static void main(String[] args) {
         List<String> updates = new ArrayList<>();
         List<String> rules = new ArrayList<>();

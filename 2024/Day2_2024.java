@@ -2,7 +2,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class Day2 {
+public class Day2_2024 {
     private static int safeReportCounter = 0;
     private static int safeReportCounterWithDampener = 0;
 
