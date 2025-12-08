@@ -11,7 +11,7 @@ public class InputParser {
 
     public static List<String> readLines() {
         try (Stream<String> lineStream = Files.lines(INPUT_PATH)) {
-            return lineStream.toList();
+            return lineStream.collect(Collectors.toList());
         } catch (IOException e) {
             e.printStackTrace();
             return List.of();
