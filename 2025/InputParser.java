@@ -25,12 +25,21 @@ public class InputParser {
         return Arrays.asList(splits);
     }
 
-    public static char[][] getMatrix() {
+    public static char[][] getPaddedMatrix() {
         List<String> lines = readLines();
         char[][] matrix = new char[lines.size()+2][lines.getFirst().length()+2];
         for(int i = 0; i < lines.size(); i++) {
             lines.set(i,'\0' + lines.get(i) + '\0');
             matrix[i+1] = lines.get(i).toCharArray();
+        }
+        return matrix;
+    }
+
+    public static char[][] getMatrix() {
+        List<String> lines = readLines();
+        char[][] matrix = new char[lines.size()][lines.getFirst().length()];
+        for(int i = 0; i < lines.size(); i++) {
+            matrix[i] = lines.get(i).toCharArray();
         }
         return matrix;
     }

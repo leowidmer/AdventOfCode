@@ -3,7 +3,7 @@ public class Day4_2025 {
     private static char[][] input;
 
     public static void main(String[] args) {
-        input = InputParser.getMatrix();
+        input = InputParser.getPaddedMatrix();
         System.out.println("Task 1 Result: " + task1(input));
         System.out.println("Task 2 Result: " + task2(input));
 
